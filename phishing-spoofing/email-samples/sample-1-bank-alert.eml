@@ -1,0 +1,41 @@
+Return-Path: <alert@secure-hdfcbank-verify.com>
+Delivered-To: victim@example.com
+Received: from mail-relay-09.spoofnet.ru (mail-relay-09.spoofnet.ru [185.220.101.47])
+    by mx.example.com with ESMTP id a1b2c3; Mon, 12 May 2026 03:14:22 +0000
+From: "HDFC Bank Security Team" <alert@secure-hdfcbank-verify.com>
+To: victim@example.com
+Subject: URGENT: Your Account Has Been Temporarily Suspended
+Date: Mon, 12 May 2026 03:14:20 +0000
+Message-ID: <8f3ac2e1-hydra01@spoofnet.ru>
+Authentication-Results: mx.example.com;
+    spf=fail smtp.mailfrom=secure-hdfcbank-verify.com;
+    dkim=none (no signature);
+    dmarc=fail (p=none) header.from=secure-hdfcbank-verify.com
+Content-Type: multipart/mixed; boundary="HydraBoundary01"
+
+--HydraBoundary01
+Content-Type: text/html; charset="UTF-8"
+
+Dear Customer,
+
+We detected unusual activity on your HDFC Net Banking account. Your
+account access has been LIMITED. Click the secure link below within
+24 hours to restore full access, or your account will be permanently
+deactivated:
+
+hxxps://secure-hdfcbank-verify[.]com/login/restore?id=8842
+
+Failure to verify will result in permanent suspension.
+
+HDFC Bank Security Team
+
+--HydraBoundary01
+Content-Type: application/pdf; name="Account_Statement.pdf.exe"
+Content-Disposition: attachment; filename="Account_Statement.pdf.exe"
+Content-Transfer-Encoding: base64
+
+[ATTACHMENT REDACTED — SIMULATED MALICIOUS PAYLOAD PLACEHOLDER, SEE
+malware-analysis/payload-simulation.md FOR BEHAVIORAL ANALYSIS. NO
+EXECUTABLE CONTENT IS INCLUDED IN THIS REPOSITORY.]
+
+--HydraBoundary01--

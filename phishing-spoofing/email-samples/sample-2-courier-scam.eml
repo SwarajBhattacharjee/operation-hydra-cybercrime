@@ -1,0 +1,22 @@
+Return-Path: <support@fedex-track-delivery.info>
+Delivered-To: victim@example.com
+Received: from vps-88214.hydra-c2.net (vps-88214.hydra-c2.net [45.155.205.19])
+    by mx.example.com with ESMTP id b2c3d4; Wed, 14 May 2026 09:41:07 +0000
+From: "FedEx Delivery Support" <support@fedex-track-delivery.info>
+To: victim@example.com
+Subject: Your Parcel Could Not Be Delivered - Action Required
+Date: Wed, 14 May 2026 09:41:05 +0000
+Message-ID: <c91a4f77-hydra02@hydra-c2.net>
+Authentication-Results: mx.example.com;
+    spf=fail smtp.mailfrom=fedex-track-delivery.info;
+    dkim=fail reason="signature verification failed";
+    dmarc=fail (p=reject) header.from=fedex-track-delivery.info
+Content-Type: text/html; charset="UTF-8"
+
+We attempted to deliver your parcel but a customs fee of Rs. 249 is
+pending. Pay now to release your shipment:
+
+hxxps://fedex-track-delivery[.]info/pay?ref=IN88213321
+
+--
+FedEx Customer Care

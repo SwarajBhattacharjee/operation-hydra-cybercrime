@@ -1,0 +1,19 @@
+Return-Path: <hr@infosys-careers-hire.net>
+Delivered-To: victim@example.com
+Received: from mail01.bpo-hydra.asia (mail01.bpo-hydra.asia [178.128.44.201])
+    by mx.example.com with ESMTP id e5f6a7; Sat, 17 May 2026 11:20:33 +0000
+From: "Infosys HR Careers" <hr@infosys-careers-hire.net>
+To: victim@example.com
+Subject: Congratulations! You Are Shortlisted - Work From Home
+Date: Sat, 17 May 2026 11:20:31 +0000
+Message-ID: <ab13c9e4-hydra04@bpo-hydra.asia>
+Authentication-Results: mx.example.com;
+    spf=fail smtp.mailfrom=infosys-careers-hire.net;
+    dkim=none;
+    dmarc=fail (p=none) header.from=infosys-careers-hire.net
+Content-Type: text/html; charset="UTF-8"
+
+You have been shortlisted for a Work-From-Home Data Entry role paying
+Rs. 45,000/month. A refundable registration deposit of Rs. 1,500 is
+required to activate your offer letter. Pay via UPI to
+hydra.hr.dept@fakeupi and reply with the transaction ID.

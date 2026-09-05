@@ -1,0 +1,22 @@
+Return-Path: <noreply@paytm-secure-kyc.com>
+Delivered-To: victim@example.com
+Received: from smtp-relay-42.hydra-c2.net (smtp-relay-42.hydra-c2.net [103.216.221.9])
+    by mx.example.com with ESMTP id d4e5f6; Fri, 16 May 2026 18:02:51 +0000
+From: "Paytm KYC Team" <noreply@paytm-secure-kyc.com>
+To: victim@example.com
+Subject: Complete Your KYC Today or Wallet Will Be Blocked
+Date: Fri, 16 May 2026 18:02:49 +0000
+Message-ID: <2fd6b8a3-hydra03@hydra-c2.net>
+Authentication-Results: mx.example.com;
+    spf=softfail smtp.mailfrom=paytm-secure-kyc.com;
+    dkim=none;
+    dmarc=fail (p=quarantine) header.from=paytm-secure-kyc.com
+Content-Type: text/html; charset="UTF-8"
+
+Your Paytm wallet KYC is incomplete. Enter your registered mobile
+number and the OTP sent to you to keep your wallet active:
+
+hxxps://paytm-secure-kyc[.]com/verify
+
+Note: Never share your OTP — this is a simulated phishing lure
+demonstrating the social-engineering hook attackers use.
