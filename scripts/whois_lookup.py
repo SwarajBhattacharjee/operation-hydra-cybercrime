@@ -22,6 +22,9 @@ import argparse
 import datetime as dt
 import sys
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 # Simulated fallback WHOIS records matching phishing-spoofing/analysis.md
 SIMULATED_RECORDS = {
     "secure-hdfcbank-verify.com": {

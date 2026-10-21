@@ -18,6 +18,10 @@ Usage:
 import argparse
 import os
 import socket
+import sys
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 SIMULATED_DATA = {
     "185.220.101.47": {

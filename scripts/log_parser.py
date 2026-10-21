@@ -16,7 +16,11 @@ Usage:
 
 import argparse
 import csv
+import sys
 from collections import defaultdict
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 STRUCTURING_THRESHOLD = 50000
 STRUCTURING_MARGIN = 500  # flag anything within this margin below the threshold
