@@ -61,7 +61,7 @@ lenses to reconstruct the attacker's modus operandi.
 
 ```bash
 # Clone the repository
-git clone https://github.com/<your-username>/operation-hydra-cybercrime.git
+git clone https://github.com/SwarajBhattacharjee/operation-hydra-cybercrime.git
 cd operation-hydra-cybercrime
 
 # (Optional) create a virtual environment for the analysis scripts
